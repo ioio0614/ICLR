@@ -1,0 +1,22 @@
+qwen25_14b_judge:
+  prompt_template: alpaca_qwen25_14b/prompt.txt
+  fn_completions: openai_completions
+  completions_kwargs:
+    model_name: qwen-local-judge
+    temperature: 0.0
+    max_tokens: 100
+    num_procs: 64
+    batch_size: 1
+    price_per_token: 0.0
+    requires_chatml: true
+    is_chat: true
+    # Enforce the label-only format; deterministic retries otherwise repeat
+    # unparseable labels (Model_1 / Model-1 / full-width digits) or explanations.
+    extra_body:
+      structured_outputs:
+        choice: ["Model 1", "Model 2"]
+  fn_completion_parser: regex_parser
+  completion_parser_kwargs:
+    outputs_to_match:
+      1: (?i)Model\s*1
+      2: (?i)Model\s*2

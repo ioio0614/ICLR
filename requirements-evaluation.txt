@@ -1,0 +1,7 @@
+-r requirements-training.txt
+vllm==0.15.0
+alpaca_eval==0.6.6
+openai==2.16.0
+pandas==2.3.3
+pyyaml==6.0.3
+tqdm==4.67.1

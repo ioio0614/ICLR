@@ -1,0 +1,6 @@
+{
+  "Meta-Llama-3.1-8B": "LLM-Research/Meta-Llama-3.1-8B",
+  "Meta-Llama-3.1-8B-Instruct": "LLM-Research/Meta-Llama-3.1-8B-Instruct",
+  "Mistral-7B-Instruct-v0.1": "AI-ModelScope/Mistral-7B-Instruct-v0.1",
+  "Qwen2.5-14B-Instruct": "Qwen/Qwen2.5-14B-Instruct"
+}

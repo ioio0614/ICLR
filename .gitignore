@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+.cache/
+.venv/
+.private/
+private/
+.env
+*.log
+*.pid
+*.lock
+*.safetensors
+*.bin
+*.pt
+*.pth
+/ICLR/experiments/
+/ICLR/evaluation/
+/model/**
+!/model/**/
+!/model/**/README.md
+!/model/model_manifest.json
+# Raw input data is restored from the tracked data_bundle parts.
+/ultrafeedback_binarized_cleaned/
+/alpaca_eval/
+/alpaca_assets/
+/arena-hard-auto/data/
+/mt_bench/raw/

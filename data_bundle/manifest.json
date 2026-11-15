@@ -1,0 +1,48 @@
+{
+  "format": "tar.gz split into ordered byte parts",
+  "part_bytes": 41943040,
+  "parts": [
+    {
+      "file": "inputs.tar.gz.part000",
+      "bytes": 41943040,
+      "sha256": "12eb0ddae6d52e06038099a075d0bfc1ee3fedc6ffc0cd8482126a0c7757adce"
+    },
+    {
+      "file": "inputs.tar.gz.part001",
+      "bytes": 26377019,
+      "sha256": "db978b30561b97f52bd21ae5ec6227c1065b7733dcc7b47880d07f9cda61318e"
+    }
+  ],
+  "files": [
+    {
+      "path": "alpaca_assets/df_gamed.csv",
+      "bytes": 148956,
+      "sha256": "97aeec3f1c7de6dee6fd31fe66f1702623f4614c3efe1c6fc5f4927cd5fd674d"
+    },
+    {
+      "path": "alpaca_eval/AI-ModelScope/alpaca_eval/alpaca_eval_gpt4_baseline.json",
+      "bytes": 1899765,
+      "sha256": "83db546b872ddebee8965fd05fa48461ee3c32bc695c62fb57f2d214ff741ec4"
+    },
+    {
+      "path": "arena-hard-auto/data/arena-hard-v0.1/model_answer/base.jsonl",
+      "bytes": 1506075,
+      "sha256": "0fc84d7059c21eeb57903f5f8a91b91c3ca9dda2e049fa555003aeee554aa15e"
+    },
+    {
+      "path": "arena-hard-auto/data/arena-hard-v0.1/question.jsonl",
+      "bytes": 272075,
+      "sha256": "2650242d2883f22b2abd498f273b6a7e02253cce533f5c91a858e1d44aa3002f"
+    },
+    {
+      "path": "mt_bench/raw/question.jsonl",
+      "bytes": 49673,
+      "sha256": "420ae1d63cbf0f499d8afc3b28d86714e77f13e44c133eedf942ed16c544dd34"
+    },
+    {
+      "path": "ultrafeedback_binarized_cleaned/train.jsonl",
+      "bytes": 184479419,
+      "sha256": "990cacf319017ff4247cec12be0bf078478f5c52deefd54e4af803049c819e52"
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "scope": "40 unfinished main-table seed models and 15 mandatory TIS steps; three-benchmark evaluation only",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 60,
+      "sha256": "83ebc1894b5f7abcf19aa89f4420f80328a627e88aa6512853d69345a1b7cf8a",
+      "tracked": true
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 383,
+      "sha256": "7a899fb4ad3216b01b86c71e6d4ac86171b3544ac9b382e2ddadd1881c71a348",
+      "tracked": true
+    },
+    {
+      "path": "AI_HANDOFF.md",
+      "bytes": 13614,
+      "sha256": "5a34c4e49d784b16a14693ebcdcaf027487c527e808f0f2eb9c0d924d6e75b05",
+      "tracked": true
+    },
+    {
+      "path": "ICLR/configs/alpaca_qwen25_14b/configs.yaml",
+      "bytes": 676,
+      "sha256": "7aa6cfb16af8fe0a2cc01a25ef999ffaee1d004185d524a1de56ce5f76c5b8c4",
+      "tracked": true
+    },
+    {
+      "path": "ICLR/configs/alpaca_qwen25_14b/prompt.txt",
+      "bytes": 884,
+      "sha256": "07a06fb266619557467382eebc9ff99702663135a7d082f42f8606a4cca7d848",
+      "tracked": true
+    },
+    {
+      "path": "ICLR/eval_common.py",
+      "bytes": 4447,
+      "sha256": "2fec0d736902a32af08b07a0ef5a9de5ce3eba9d0d91faeed15da50657e5e122",
+      "tracked": true
+    },
+    {
+      "path": "ICLR/generate_eval_outputs.py",
+      "bytes": 12274,
+      "sha256": "b510f7fbefaf02d45265851575d5cf4f2297cffeec0bc1442eb2ec64eedfbde0",
+      "tracked": true
+    },
+    {
+      "path": "ICLR/judge_eval_outputs.py",
+      "bytes": 37605,
+      "sha256": "1dadaf716a36bbf882ebb43ee529cdb91bbe1ac4da682f7614befc9ea7264a22",
+      "tracked": true
+    },
+    {
+      "path": "ICLR/main_seed_common.py",
+      "bytes": 5128,
+      "sha256": "bce36f94f2aadedba2fcf89cc7b8f32aeaee460acdba8a3f4fca4d65807be670",
+      "tracked": true
+    },
+    {
+      "path": "ICLR/reviewer20_eval_common.py",
+      "bytes": 2876,
+      "sha256": "8a4088daedf26a4650fdf4e4f5360c8b8ad1bda3ff047e52da4e2f6337498ac7",
+      "tracked": true
+    },
+    {
+      "path": "ICLR/reviewer20_eval_worker.py",
+      "bytes": 6572,
+      "sha256": "893a851266ef01d60bcd028dca977b9fc177f8aa16fb6b1f1237c819261cbfb4",
+      "tracked": true
+    },
+    {
+      "path": "README.md",
+      "bytes": 5119,
+      "sha256": "508e6778694c06cc2cf30069991eb363686ca84575ac94283b04145606d1d0d7",
+      "tracked": true
+    },
+    {
+      "path": "alpaca_assets/df_gamed.csv",
+      "bytes": 148956,
+      "sha256": "97aeec3f1c7de6dee6fd31fe66f1702623f4614c3efe1c6fc5f4927cd5fd674d",
+      "tracked": false
+    },
+    {
+      "path": "alpaca_eval/AI-ModelScope/alpaca_eval/alpaca_eval_gpt4_baseline.json",
+      "bytes": 1899765,
+      "sha256": "83db546b872ddebee8965fd05fa48461ee3c32bc695c62fb57f2d214ff741ec4",
+      "tracked": false
+    },
+    {
+      "path": "arena-hard-auto/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "tracked": true
+    },
+    {
+      "path": "arena-hard-auto/data/arena-hard-v0.1/model_answer/base.jsonl",
+      "bytes": 1506075,
+      "sha256": "0fc84d7059c21eeb57903f5f8a91b91c3ca9dda2e049fa555003aeee554aa15e",
+      "tracked": false
+    },
+    {
+      "path": "arena-hard-auto/data/arena-hard-v0.1/question.jsonl",
+      "bytes": 272075,
+      "sha256": "2650242d2883f22b2abd498f273b6a7e02253cce533f5c91a858e1d44aa3002f",
+      "tracked": false
+    },
+    {
+      "path": "configs/ds_config.json",
+      "bytes": 427,
+      "sha256": "24b792d088dd22926d8e8b33674961a26922c5ddc2a425cd3f123a1da23a9fa5",
+      "tracked": true
+    },
+    {
+      "path": "data_bundle/inputs.tar.gz.part000",
+      "bytes": 41943040,
+      "sha256": "12eb0ddae6d52e06038099a075d0bfc1ee3fedc6ffc0cd8482126a0c7757adce",
+      "tracked": true
+    },
+    {
+      "path": "data_bundle/inputs.tar.gz.part001",
+      "bytes": 26377019,
+      "sha256": "db978b30561b97f52bd21ae5ec6227c1065b7733dcc7b47880d07f9cda61318e",
+      "tracked": true
+    },
+    {
+      "path": "data_bundle/manifest.json",
+      "bytes": 1536,
+      "sha256": "8cf82b7deeb27d48094f564e6167cf47eeec78668120a13077a7fb9d95ba6906",
+      "tracked": true
+    },
+    {
+      "path": "env.sh",
+      "bytes": 533,
+      "sha256": "523afa6d4460470284a1c6a317e4a5392c5d8877892ec420ee64d86999996569",
+      "tracked": true
+    },
+    {
+      "path": "migration/pending_main_jobs.json",
+      "bytes": 112554,
+      "sha256": "2e223c481ba44bc39eccdd27357cef891a47e927fa2ba6fe00a61e48bc8e0756",
+      "tracked": true
+    },
+    {
+      "path": "model/Meta-Llama-3.1-8B-Instruct/README.md",
+      "bytes": 260,
+      "sha256": "5979c1c8a8ed15ee90879c8b8eefb0be4d96f5d03121785ee635a409d87af877",
+      "tracked": true
+    },
+    {
+      "path": "model/Meta-Llama-3.1-8B/README.md",
+      "bytes": 242,
+      "sha256": "ee682a81ea30283c765d0d65886b280dfcc35501aff795e0cdbb9faec61fa257",
+      "tracked": true
+    },
+    {
+      "path": "model/Mistral-7B-Instruct-v0.1/README.md",
+      "bytes": 257,
+      "sha256": "8cfc62f03dd63a2a549316593751e0e042915a4151081266731ef0dddab8aead",
+      "tracked": true
+    },
+    {
+      "path": "model/Qwen2.5-14B-Instruct/README.md",
+      "bytes": 240,
+      "sha256": "f71396dd326104b0bee4158b1787399f538121e21860f8e6a116ffa0d33820f0",
+      "tracked": true
+    },
+    {
+      "path": "model/model_manifest.json",
+      "bytes": 262,
+      "sha256": "e4717293bee9a75d33afbef5226e523945ae782eb07522f1b35cd6966ccd81b2",
+      "tracked": true
+    },
+    {
+      "path": "mt_bench/raw/question.jsonl",
+      "bytes": 49673,
+      "sha256": "420ae1d63cbf0f499d8afc3b28d86714e77f13e44c133eedf942ed16c544dd34",
+      "tracked": false
+    },
+    {
+      "path": "requirements-evaluation.txt",
+      "bytes": 117,
+      "sha256": "1b2141234323377a72d164ce1e16605fb005e93e1424fbacefd4056659632701",
+      "tracked": true
+    },
+    {
+      "path": "requirements-training.txt",
+      "bytes": 220,
+      "sha256": "d7c13242c4130425778c7476d49b7fd8aca875f69d8c8ff467025badc5b9dd95",
+      "tracked": true
+    },
+    {
+      "path": "scripts/check_bundle.py",
+      "bytes": 2249,
+      "sha256": "097f615b572c7b62d5574ed5d9b7746d98bea6b2b6117807eb5303e6cf1e34e4",
+      "tracked": true
+    },
+    {
+      "path": "scripts/estimate_tis_weights.py",
+      "bytes": 14238,
+      "sha256": "d3d647b4f01198b7261f57a10be071f38385eb8c63673dd5204afef026c68519",
+      "tracked": true
+    },
+    {
+      "path": "scripts/evaluate_checkpoint.py",
+      "bytes": 2235,
+      "sha256": "165f68a980810af76c24e58552a17b611824428a9647cadc5e1689b43b085ea2",
+      "tracked": true
+    },
+    {
+      "path": "scripts/pack_data.py",
+      "bytes": 2138,
+      "sha256": "1c11df3c8a95f2b16d777b34fea8a7681cc8b7d533ea59026ad15d9df66e6948",
+      "tracked": true
+    },
+    {
+      "path": "scripts/restore_data.py",
+      "bytes": 3098,
+      "sha256": "e5a472ccd32508483b024d9d20bd0786cdeb62fc3b2071f28a68b417a09a5456",
+      "tracked": true
+    },
+    {
+      "path": "scripts/run_pending_seeds.py",
+      "bytes": 7559,
+      "sha256": "15154ed20a9e9245edb7c09a89c0713ee9172cbfb3ecc91e3ca5171dacd89c48",
+      "tracked": true
+    },
+    {
+      "path": "src/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tracked": true
+    },
+    {
+      "path": "src/common/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tracked": true
+    },
+    {
+      "path": "src/common/model_utils.py",
+      "bytes": 5633,
+      "sha256": "9de99d47e73413b34e3fcc6b5b7f9689795527ec212047e8a81598dfeba81adb",
+      "tracked": true
+    },
+    {
+      "path": "src/training/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tracked": true
+    },
+    {
+      "path": "src/training/entropy_logging.py",
+      "bytes": 1511,
+      "sha256": "3a2e2bbd63ef344b41a02c0196ab5e704337fe7dfa31483cf51f5490f6f8ae5f",
+      "tracked": true
+    },
+    {
+      "path": "src/training/preference_optimization.py",
+      "bytes": 31348,
+      "sha256": "5746adf405e1bebbe6b3f874c45b98c3b6eb4989f314930aebb4252bc2bf361a",
+      "tracked": true
+    },
+    {
+      "path": "src/training/sft_unified.py",
+      "bytes": 7921,
+      "sha256": "276606b5ca748a70d98dd32c0b4112aff17f8230aae6f577c17d6f1cdb4f1c9e",
+      "tracked": true
+    },
+    {
+      "path": "ultrafeedback_binarized_cleaned/train.jsonl",
+      "bytes": 184479419,
+      "sha256": "990cacf319017ff4247cec12be0bf078478f5c52deefd54e4af803049c819e52",
+      "tracked": false
+    }
+  ],
+  "total_bytes": 256971595,
+  "github_payload_bytes": 68615632,
+  "checks": [
+    "relocation and full data restore",
+    "55-task dry run",
+    "4/8 GPU global batch preservation including OOM halving",
+    "805 Alpaca / 500 Arena / 80 two-turn MT questions",
+    "32-GPU AI handoff checked against the current task plan and single-queue interface; no 32-GPU execution claimed"
+  ],
+  "gpu_training_launched": false
+}
